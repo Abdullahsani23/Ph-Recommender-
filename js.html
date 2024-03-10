@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mob Ph-recom</title>
+</head>
+
+<style>
+    body{
+        margin-top: 50px;
+        text-align: center;
+        font-weight: 500;
+        background-color: #302f2f;
+        color: #FFF;
+    }
+</style>
+<body>
+    
+
+    <script>
+        alert("Welcome to the Ph-Recomeder")
+
+        var name =prompt("Enter Your Name")
+        console.log("Hello " + name);
+        document.write("Hello " + name + "<br> <br> <br> <br> <br> <br> <br> <br>" );
+    
+
+        var budget =prompt("what is your budget " + " high / medium / low ")
+        var opearating =prompt("which opearting system you want " + " ios / android" )
+        var camera =prompt("what camera quality you need " + " moderate / basic / normal" )
+        var bettery =prompt("which type of betery life you want " + " long / average ")
+        var screen =prompt("what screen size do you prefer " + " large / normal / small")
+
+        if(budget === "high" && opearating == "ios" && camera == "moderate" && bettery == "long" && screen == "large"){
+            console.log("iphone 14 pro");
+            document.write(" Here is your phone sugeestion " + "<br>" + 
+            "Iphone 14 pro is best mobile for you");
+        }
+    
+        // else{
+        //     console.log("better luck next time");
+        // }
+        else if(budget == "medium" && opearating == "android" && camera == "basic" && bettery == "average" && screen == "normal"){
+            console.log("Samsung note 10");
+            // document.write("Samsung note 10");
+            document.write(" Here is your phone sugeestion " + "<br>" + 
+            "Samsung Note 10 is best mobile for you");
+        }
+        // else{
+        //     console.log("keep more saving");
+        // }
+         else if(budget == "low" && opearating == "android" && camera == "normal" && bettery == "average" && screen == "small"){
+            console.log("Motorolla");
+            document.write(" Here is your phone sugeestion " + "<br>" + 
+            "Motorolla is best mobile for you");
+        }else{
+            console.log("ghreebo");
+            document.write("GhrEEeeeboOOooo");
+        }
+
+
+
+    </script>
+
+</body>
+</html>
